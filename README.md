@@ -13,7 +13,7 @@ SNES Controller Pinout
   <li>Pin 1: 5V</li>
   <li>Pin 2: Data_Clock (Arduino: Pin 6)</li>
   <li>Pin 3: Data_Latch (Arduino: Pin 7)</li>
-  <li>Pin 4: Data_Serial (Arduino: Pin 13)</li>
+  <li>Pin 4: Data_Serial (Arduino: Pin 12)</li>
   <li>Pin 5: N/A</li>
   <li>Pin 6: N/A</li>
   <li>Pin 7: GND</li>

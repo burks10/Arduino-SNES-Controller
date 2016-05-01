@@ -42,10 +42,11 @@ dataForController_t getControllerData(void){
     for(int i = 0; i < 16; i++){
         digitalWrite(DATA_CLOCK, LOW);
         delayMicroseconds(6);
-        if(i < 11){
+        if(i <= 11){
             buttons[i] = digitalRead(DATA_SERIAL);
         }
         digitalWrite(DATA_CLOCK, HIGH);
+        delayMicroseconds(6);
     }
     
     
@@ -88,6 +89,14 @@ dataForController_t getControllerData(void){
     
     if(buttons[9] == 0){
       controllerData.triangleOn = 1;
+    }
+    
+    if(buttons[10] == 0){
+      controllerData.l1On = 1;
+    }
+
+    if(buttons[11] == 0){
+      controllerData.r1On = 1;
     }
 
   return controllerData;

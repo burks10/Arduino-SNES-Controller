@@ -43,6 +43,8 @@ void getControllerData(void){
             buttons[i] = digitalRead(DATA_SERIAL);
         }
         digitalWrite(DATA_CLOCK, HIGH);
+            delayMicroseconds(6);
+
     }
   printButtons();  
 }

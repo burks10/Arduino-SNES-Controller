@@ -29,3 +29,5 @@ SNES Controller Pinout
   back in. You are now running the arduino as a joystick.</li>
   
 </ol>
+
+Be sure to checkout UnoJoy (https://github.com/AlanChatham/UnoJoy) for their awesome library/drivers that made this project possible.

@@ -2,6 +2,8 @@
 A small Arduino sketch which creates an HID compliant joystick out of Nintendo's Super Nintendo (SNES) Controller.
 You can now play any joystick compatible game using your old SNES controller and any Arduino based microcontroller.
 
+Check out this quick video for a demo and tutorial: https://www.youtube.com/watch?v=93oCS9nF_y0
+
 ## Hardware Setup
 
 SNES Controller Pinout
@@ -29,3 +31,5 @@ SNES Controller Pinout
   back in. You are now running the arduino as a joystick.</li>
   
 </ol>
+
+Be sure to checkout UnoJoy (https://github.com/AlanChatham/UnoJoy) for their awesome library/drivers that made this project possible.

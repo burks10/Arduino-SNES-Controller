@@ -39,7 +39,7 @@ void getControllerData(void){
     for(int i = 0; i < 16; i++){
         digitalWrite(DATA_CLOCK, LOW);
         delayMicroseconds(6);
-        if(i < 11){
+        if(i <= 11){
             buttons[i] = digitalRead(DATA_SERIAL);
         }
         digitalWrite(DATA_CLOCK, HIGH);

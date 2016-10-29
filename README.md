@@ -29,6 +29,9 @@ SNES Controller Pinout
   we must flash the 16u2 chip with some custom firmware. To do this on the Arduino R3, short the 2 pins closest to the USB port to enter
   DFU mode. From there, run UnoJoy/TurnIntoAJoystick.bat. Now that you have reflashed the Arduino, unplug it from the USB and re-plug it
   back in. You are now running the arduino as a joystick.</li>
+  <li>
+  There is also an Arduino Micro folder containing a sketch that can simply be loaded to any arduino micro controller. Since this is an HID compliant device, uno joy is not needed. Just plug and play.
+  </li>
   
 </ol>
 
